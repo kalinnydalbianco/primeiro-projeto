@@ -1,0 +1,159 @@
+/*Reset*/
+
+html{
+    height: 100%
+}
+*{
+    box-sizing: border-box;
+}
+img{
+    max-width: 100%;
+}
+body{
+    font-family: Playfair Display, Verdana, sans-serif;
+    letter-spacing: 2px;
+    margin: 0px;
+    padding: 0px; 
+}
+
+/*Variáveis*/
+
+:root {
+    --cortexto: white;
+}
+
+/*Estilos*/
+
+/*head*/
+
+.plex{
+    text-align: letf;
+    padding: 0px;
+    margin: 10px 10px 10px 0px;
+    font-weight: normal;
+}
+
+ul{
+    text-align: right;
+    font-size: 10px;
+    margin: 20px 0 20px 0;
+}
+
+.lista li{
+    text-decoration: none;
+    text-align: right;
+    display: inline;
+    margin: 10px;
+}
+
+.head{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 10px 10px 10px 10px;
+    padding: 0;
+}
+
+/*Logo*/
+
+.logo{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    background: url('../images/background.png');
+    background-size: cover;
+    background-position: center;
+    margin: 0px 0px;
+}
+
+.logoh1{
+    color: var(--cortexto);
+    text-align: center;
+    font-size: 50px;
+    font-weight: normal;
+}
+
+/*about*/
+
+.about{
+    display: grid;
+    grid-template-columns: 30% 50% 20%;
+    background-color: #044F67;
+    margin: 0px auto;
+}
+
+h2{
+    margin-top: 80px;
+    text-align: center;
+    color: var(--cortexto);
+    font-weight: normal;
+}
+
+p{
+    color: var(--cortexto)
+
+}
+
+/*Imagens*/
+
+h3{
+    text-align: center;
+    font-weight: bold;
+    margin: 40px 40px;
+    font-size: 30px;
+}
+
+.img{
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+    margin: 0px auto;
+    padding: 0px;
+    width: 80%;
+}
+
+/*Footer*/
+
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: #044F67;
+    text-align: left;
+    grid-row-gap: 10px;
+    margin: 30px auto;
+}
+
+.rodape{
+    color: var(--cortexto);
+    margin-bottom: 30px;
+    margin-left: 90px;
+    font-weight: normal;
+}
+
+h4{
+    color: var(--cortexto);
+    font-weight: normal;
+}
+
+a{
+    color: #000;
+    text-decoration: none;
+}
+
+a:hover{
+    color: red;
+    text-decoration: underline;
+}
+
+li:last-of-type{
+    font-weight: bold;
+}
+
+.email{
+    color: var(--cortexo);
+    
+}
